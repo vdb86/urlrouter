@@ -38,5 +38,8 @@ fun AppNavHost(viewModel: MainViewModel) {
         composable(NavRoutes.DIAGNOSTICS) {
             DiagnosticsScreen(viewModel = viewModel, onBack = { navController.popBackStack() })
         }
+        composable(NavRoutes.ABOUT) {
+            AboutScreen(onBack = { navController.popBackStack() })
+        }
     }
 }

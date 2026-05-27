@@ -9,6 +9,7 @@ object NavRoutes {
     const val APPEARANCE = "appearance"
     const val IMPORT_EXPORT = "import_export"
     const val DIAGNOSTICS = "diagnostics"
+    const val ABOUT = "about"
 
     fun ruleEditor(ruleId: Long) = "rule_editor/$ruleId"
 }

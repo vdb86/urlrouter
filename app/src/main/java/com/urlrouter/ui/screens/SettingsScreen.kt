@@ -25,6 +25,7 @@ fun SettingsScreen(viewModel: MainViewModel, onNavigate: (String) -> Unit) {
             item { SettingsItem(Icons.Default.Palette, "Appearance", "Customize the browser chooser") { onNavigate(NavRoutes.APPEARANCE) } }
             item { SettingsItem(Icons.Default.BugReport, "Diagnostics", "Test URL routing rules") { onNavigate(NavRoutes.DIAGNOSTICS) } }
             item { SettingsItem(Icons.Default.ImportExport, "Import / Export", "Backup and restore configuration") { onNavigate(NavRoutes.IMPORT_EXPORT) } }
+            item { SettingsItem(Icons.Default.Info, "About", "Dedication, licence, privacy, features") { onNavigate(NavRoutes.ABOUT) } }
         }
     }
 }

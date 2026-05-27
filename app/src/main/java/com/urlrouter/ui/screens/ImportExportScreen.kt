@@ -26,7 +26,6 @@ fun ImportExportScreen(viewModel: MainViewModel, onBack: () -> Unit) {
     var isError by remember { mutableStateOf(false) }
     var isWorking by remember { mutableStateOf(false) }
 
-    // Export: user picks where to save the file
     val exportLauncher = rememberLauncherForActivityResult(
         contract = ActivityResultContracts.CreateDocument("application/json")
     ) { uri ->
@@ -55,7 +54,6 @@ fun ImportExportScreen(viewModel: MainViewModel, onBack: () -> Unit) {
         )
     }
 
-    // Import: user picks a JSON file
     val importLauncher = rememberLauncherForActivityResult(
         contract = ActivityResultContracts.OpenDocument()
     ) { uri ->
@@ -105,7 +103,6 @@ fun ImportExportScreen(viewModel: MainViewModel, onBack: () -> Unit) {
                 .padding(16.dp),
             verticalArrangement = Arrangement.spacedBy(16.dp)
         ) {
-            // Status card
             if (statusMessage.isNotEmpty()) {
                 Card(
                     colors = CardDefaults.cardColors(
@@ -122,7 +119,6 @@ fun ImportExportScreen(viewModel: MainViewModel, onBack: () -> Unit) {
                 }
             }
 
-            // Export
             Text("Export", style = MaterialTheme.typography.titleMedium)
             Text(
                 "Save your rules, browser settings, and appearance configuration to a JSON file.",
@@ -143,7 +139,6 @@ fun ImportExportScreen(viewModel: MainViewModel, onBack: () -> Unit) {
 
             HorizontalDivider()
 
-            // Import
             Text("Import", style = MaterialTheme.typography.titleMedium)
             Text(
                 "Restore a previously exported configuration file.",
