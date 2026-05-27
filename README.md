@@ -18,26 +18,26 @@
 
 ## What it does
 
-URL Router registers itself as a browser. When you open a link anywhere on Android, URL Router receives it first, evaluates your rules, and silently forwards the URL to the correct browser — with no visible UI when a rule matches.
+URL Router registers itself as a browser. When you open a link anywhere on Android, URL Router receives it first, evaluates your rules, and silently forwards the URL to the correct browser - with no visible UI when a rule matches.
 
 If no rule matches, a minimal browser chooser appears so you can pick manually.
 
 ## Features
 
-- **Rule-based routing** — route URLs by exact hostname, wildcard hostname (`*.example.com`), URL prefix, substring match, or full regex
-- **Rule priority** — exact hostname → wildcard → prefix → regex → contains; first match wins
-- **Default browser** — optionally define a fallback browser that opens when no rule matches, skipping the chooser entirely
-- **Minimal chooser** — a clean bottom sheet with only the browsers you want; fully customisable appearance
-- **No recent apps entry** — URL Router disappears after routing; it never appears in your app switcher
-- **Long-press to create rule** — long-press any browser in the chooser to automatically create a rule for that domain
-- **Browser management** — enable/disable browsers, set display order, rescan installed browsers
-- **Appearance settings** — configure the chooser display mode, alignment, corner radius, padding, animations, and background colour with a full HSV colour picker including transparency
-- **Import / Export** — back up and restore your entire configuration using the system file picker
-- **Diagnostics** — paste any URL to see exactly which rule would match and which browser would open it
+- **Rule-based routing** - route URLs by exact hostname, wildcard hostname (`*.example.com`), URL prefix, substring match, or full regex
+- **Rule priority** - exact hostname → wildcard → prefix → regex → contains; first match wins
+- **Default browser** - optionally define a fallback browser that opens when no rule matches, skipping the chooser entirely
+- **Minimal chooser** - a clean bottom sheet with only the browsers you want; fully customisable appearance
+- **No recent apps entry** - URL Router disappears after routing; it never appears in your app switcher
+- **Long-press to create rule** - long-press any browser in the chooser to automatically create a rule for that domain
+- **Browser management** - enable/disable browsers, set display order, rescan installed browsers
+- **Appearance settings** - configure the chooser display mode, alignment, corner radius, padding, animations, and background colour with a full HSV colour picker including transparency
+- **Import / Export** - back up and restore your entire configuration using the system file picker
+- **Diagnostics** - paste any URL to see exactly which rule would match and which browser would open it
 
 ## Default browser
 
-Under **Browser Management** you can designate a default browser. When enabled, any link that doesn't match a routing rule is sent directly to the default browser — the chooser never appears. This is useful if you have one browser you use for everything except a handful of specific sites you've created rules for.
+Under **Browser Management** you can designate a default browser. When enabled, any link that doesn't match a routing rule is sent directly to the default browser - the chooser never appears. This is useful if you have one browser you use for everything except a handful of specific sites you've created rules for.
 
 The default browser is shown with a **Default** badge in the browser list and can be changed or disabled at any time.
 
@@ -45,18 +45,18 @@ The default browser is shown with a **Default** badge in the browser list and ca
 
 The browser chooser is fully customisable under **Appearance**:
 
-- **Display mode** — icons only, icons with labels, or a vertical list
-- **Alignment** — left, centre, or right
-- **Background colour** — full HSV colour picker with a hue bar, saturation/brightness panel, transparency slider, and hex input
-- **Corner radius** — from sharp corners to a fully rounded sheet
-- **Elevation** — controls the shadow depth of the sheet
-- **Padding and item spacing** — fine-tune the layout
-- **Animations** — enable or disable the sheet animation and set its duration
-- **Show/hide icons and labels** — supports icon-only layouts
+- **Display mode** - icons only, icons with labels, or a vertical list
+- **Alignment** - left, centre, or right
+- **Background colour** - full HSV colour picker with a hue bar, saturation/brightness panel, transparency slider, and hex input
+- **Corner radius** - from sharp corners to a fully rounded sheet
+- **Elevation** - controls the shadow depth of the sheet
+- **Padding and item spacing** - fine-tune the layout
+- **Animations** - enable or disable the sheet animation and set its duration
+- **Show/hide icons and labels** - supports icon-only layouts
 
 ## Import / Export
 
-Your entire configuration — routing rules, browser order, enabled browsers, and appearance settings — can be exported to a JSON file and restored later. Tap **Export** to save the file anywhere on your device (Downloads, Google Drive, etc.) using the system file picker. Tap **Import** to select a previously exported file and restore it.
+Your entire configuration - routing rules, browser order, enabled browsers, and appearance settings - can be exported to a JSON file and restored later. Tap **Export** to save the file anywhere on your device (Downloads, Google Drive, etc.) using the system file picker. Tap **Import** to select a previously exported file and restore it.
 
 ## Screenshots
 
@@ -90,7 +90,7 @@ Your entire configuration — routing rules, browser order, enabled browsers, an
 ### Steps
 
 ```bash
-git clone https://github.com/yourusername/urlrouter.git
+git clone https://github.com/vdb86/urlrouter.git
 cd urlrouter
 ./gradlew assembleDebug
 ```
