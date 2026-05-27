@@ -1,0 +1,14 @@
+URL Router intercepts links opened anywhere on Android and routes them to the correct browser based on your rules — silently, with no UI when a rule matches.
+
+Features:
+• Route by hostname, wildcard, prefix, substring, or regex
+• Default browser fallback when no rule matches
+• Minimal, fully customisable browser chooser bottom sheet
+• Long-press in the chooser to instantly create a rule for that domain
+• Enable/disable and reorder browsers
+• Full HSV colour picker with transparency for the chooser background
+• Import/Export configuration as JSON
+• Diagnostics screen to test URL matching
+• No tracking, no analytics, fully offline
+
+Setup: after installing, go to Settings → Apps → Default apps → Browser and select URL Router.
