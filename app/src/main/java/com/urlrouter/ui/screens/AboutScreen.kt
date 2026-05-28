@@ -121,7 +121,7 @@ fun AboutScreen(onBack: () -> Unit) {
                 "No recent apps entry" to "URL Router disappears after routing; it never appears in your app switcher.",
                 "Long-press to create rule" to "Long-press any browser in the chooser to automatically create a rule for that domain.",
                 "Browser management" to "Enable/disable browsers, set display order, rescan installed browsers.",
-                "Appearance settings" to "Configure the chooser display mode, alignment, corner radius, padding, animations, and background colour with a full HSV colour picker including transparency.",
+                "Appearance settings" to "Configure the chooser display mode (grid/list), alignment, icon size, text colour, vertical position, corner radius, padding, and background colour with a full HSV colour picker.",
                 "Import / Export" to "Back up and restore your entire configuration using the system file picker.",
                 "Diagnostics" to "Paste any URL to see exactly which rule would match and which browser would open it."
             )

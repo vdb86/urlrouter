@@ -43,21 +43,22 @@ data class RoutingRule(
 // Chooser appearance settings
 // ---------------------------------------------------------------------------
 
-enum class ChooserDisplayMode { HORIZONTAL_ICONS, HORIZONTAL_ICON_TEXT, VERTICAL_LIST }
+enum class ChooserDisplayMode { GRID, LIST }
 enum class ChooserAlignment { START, CENTER, END }
 
 data class AppearanceSettings(
     val backgroundColor: Long = 0xFF1C1B1F,
+    val textColor: Long = 0xFFFFFFFF,
     val cornerRadius: Int = 28,
-    val elevation: Int = 6,
     val padding: Int = 16,
     val itemSpacing: Int = 8,
-    val displayMode: ChooserDisplayMode = ChooserDisplayMode.HORIZONTAL_ICON_TEXT,
+    val displayMode: ChooserDisplayMode = ChooserDisplayMode.GRID,
     val alignment: ChooserAlignment = ChooserAlignment.CENTER,
     val showIcons: Boolean = true,
     val showNames: Boolean = true,
-    val animationsEnabled: Boolean = true,
-    val animationDurationMs: Int = 300
+    val iconSize: Int = 48,
+    val textSize: Int = 12,
+    val verticalPosition: Float = 0f  // 0.0 = bottom, 1.0 = top
 )
 
 // ---------------------------------------------------------------------------

@@ -31,7 +31,7 @@ If no rule matches, a minimal browser chooser appears so you can pick manually.
 - **No recent apps entry** - URL Router disappears after routing; it never appears in your app switcher
 - **Long-press to create rule** - long-press any browser in the chooser to automatically create a rule for that domain
 - **Browser management** - enable/disable browsers, set display order, rescan installed browsers
-- **Appearance settings** - configure the chooser display mode, alignment, corner radius, padding, animations, and background colour with a full HSV colour picker including transparency
+- **Appearance settings** - configure the chooser with grid or list display mode, icon size, text size and colour, vertical position, corner radius, padding, and background colour with a full HSV colour picker including transparency
 - **Import / Export** - back up and restore your entire configuration using the system file picker
 - **Diagnostics** - paste any URL to see exactly which rule would match and which browser would open it
 
@@ -45,14 +45,15 @@ The default browser is shown with a **Default** badge in the browser list and ca
 
 The browser chooser is fully customisable under **Appearance**:
 
-- **Display mode** - icons only, icons with labels, or a vertical list
+- **Display mode** - grid (icons with optional labels) or vertical list
+- **Show browser icons** - toggle icons on or off; when enabled, set the icon size
+- **Show browser names** - toggle labels on or off; when enabled, set the text colour and text size
 - **Alignment** - left, centre, or right
+- **Vertical position** - move the chooser up from the bottom of the screen (0% = bottom, 100% = top)
 - **Background colour** - full HSV colour picker with a hue bar, saturation/brightness panel, transparency slider, and hex input
-- **Corner radius** - from sharp corners to a fully rounded sheet
-- **Elevation** - controls the shadow depth of the sheet
+- **Corner radius** - from sharp corners to a fully rounded sheet; all corners are rounded when the sheet is elevated
 - **Padding and item spacing** - fine-tune the layout
-- **Animations** - enable or disable the sheet animation and set its duration
-- **Show/hide icons and labels** - supports icon-only layouts
+- **Preview** - see your changes live before saving, using your real installed browsers
 
 ## Import / Export
 

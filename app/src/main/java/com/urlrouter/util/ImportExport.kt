@@ -58,20 +58,25 @@ object ImportExport {
             val appearance = obj.getAsJsonObject("appearance")?.let { ap ->
                 AppearanceSettings(
                     backgroundColor = ap.get("backgroundColor")?.asLong ?: 0xFF1C1B1F,
+                    textColor = ap.get("textColor")?.asLong ?: 0xFFFFFFFF,
                     cornerRadius = ap.get("cornerRadius")?.asInt ?: 28,
-                    elevation = ap.get("elevation")?.asInt ?: 6,
                     padding = ap.get("padding")?.asInt ?: 16,
                     itemSpacing = ap.get("itemSpacing")?.asInt ?: 8,
-                    displayMode = ChooserDisplayMode.valueOf(
-                        ap.get("displayMode")?.asString ?: ChooserDisplayMode.HORIZONTAL_ICON_TEXT.name
-                    ),
+                    displayMode = try {
+                        ChooserDisplayMode.valueOf(
+                            ap.get("displayMode")?.asString ?: ChooserDisplayMode.GRID.name
+                        )
+                    } catch (e: IllegalArgumentException) {
+                        ChooserDisplayMode.GRID
+                    },
                     alignment = ChooserAlignment.valueOf(
                         ap.get("alignment")?.asString ?: ChooserAlignment.CENTER.name
                     ),
                     showIcons = ap.get("showIcons")?.asBoolean ?: true,
                     showNames = ap.get("showNames")?.asBoolean ?: true,
-                    animationsEnabled = ap.get("animationsEnabled")?.asBoolean ?: true,
-                    animationDurationMs = ap.get("animationDurationMs")?.asInt ?: 300
+                    iconSize = ap.get("iconSize")?.asInt ?: 48,
+                    textSize = ap.get("textSize")?.asInt ?: 12,
+                    verticalPosition = ap.get("verticalPosition")?.asFloat ?: 0f
                 )
             } ?: AppearanceSettings()
 
