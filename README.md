@@ -75,12 +75,17 @@ Your entire configuration - routing rules, browser order, enabled browsers, and 
 
 ## Setup
 
-1. Install URL Router
+Install URL Router
+
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid" height="80">](https://f-droid.org/packages/com.urlrouter)
+
 Or download the APK from the [Releases](https://github.com/vdb86/urlrouter/releases) page.
-2. Open **Settings → Apps → Default apps → Browser** and select **URL Router**
-3. Open URL Router and go to **Browser Management** to scan your installed browsers
-4. Add routing rules under **Routing Rules**
+
+Open **Settings → Apps → Default apps → Browser** and select **URL Router**
+
+Open URL Router and go to **Browser Management** to scan your installed browsers
+
+Add routing rules under **Routing Rules**
 
 ## Building from source
 
