@@ -1,7 +1,7 @@
 # URL Router
 
 <p align="center">
-  <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" width="96" alt="URL Router icon"/>
+  <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" width="96" alt="URL Router icon"/>
 </p>
 
 <p align="center">
