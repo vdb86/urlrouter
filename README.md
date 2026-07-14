@@ -70,7 +70,7 @@ Your entire configuration - routing rules, browser order, enabled browsers, and 
 
 ## Requirements
 
-- Android 8.0 (API 26) or higher
+- Android 10 (API 29) or higher
 - One or more browsers installed
 
 ## Setup
