@@ -1,1 +1,0 @@
-Route links to the right browser automatically using configurable rules.
