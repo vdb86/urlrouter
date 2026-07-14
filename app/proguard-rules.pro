@@ -1,3 +1,0 @@
--keep class com.browserrouter.model.** { *; }
--keepattributes *Annotation*
--dontwarn kotlin.**
