@@ -14,10 +14,6 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="https://play.google.com/store/apps/details?id=com.urlrouter.app">Available on Google Play</a>
-</p>
-
 ---
 
 *Dedicated to my son Mihajlo.*
