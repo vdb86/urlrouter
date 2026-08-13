@@ -8,6 +8,16 @@
   A lightweight Android app that intercepts links and routes them to the right browser automatically.
 </p>
 
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.urlrouter.app">
+    <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="80"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.urlrouter.app">Available on Google Play</a>
+</p>
+
 ---
 
 *Dedicated to my son Mihajlo.*

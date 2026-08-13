@@ -7,14 +7,14 @@ plugins {
 
 android {
     namespace = "com.urlrouter.app"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.urlrouter.app"
         minSdk = 29
-        targetSdk = 35
-        versionCode = 2
-        versionName = "1.1"
+        targetSdk = 36
+        versionCode = 3
+        versionName = "1.2"
     }
 
     dependenciesInfo {
