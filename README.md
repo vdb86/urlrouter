@@ -22,6 +22,18 @@
 
 ---
 
+## 💬 Feedback, bug reports & feature requests
+
+Found a bug or have an idea? This is the place to let me know.
+
+- 🐞 **Found a bug?** [Report a bug](../../issues/new?template=bug_report.yml) and tell us what happened, what you expected, and your device / Android version.
+- 💡 **Have an idea?** [Request a feature](../../issues/new?template=feature_request.yml) - I read every suggestion.
+- 👍 **Want something that's already been suggested?** Browse [bug reports](../../issues?q=is%3Aissue+label%3Abug) and [feature requests](../../issues?q=is%3Aissue+label%3Aenhancement) and add a 👍 or a comment so I know it matters to you.
+
+Please search the [open issues](../../issues) first to avoid duplicates.
+
+---
+
 ## What it does
 
 URL Router registers itself as a browser. When you open a link anywhere on Android, URL Router receives it first, evaluates your rules, and silently forwards the URL to the correct browser - with no visible UI when a rule matches.
