@@ -80,10 +80,11 @@ Your entire configuration - routing rules, browser order, enabled browsers, and 
 ## Screenshots
 
 <p align="center">
-  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" width="200"/>
-  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.png" width="200"/>
-  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/3.png" width="200"/>
-  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4.png" width="200"/>
+  <img src="Screenshots/Main.jpg" alt="Main screen" width="200"/>
+  <img src="Screenshots/Rules.jpg" alt="Routing rules" width="200"/>
+  <img src="Screenshots/Popup.jpg" alt="Browser chooser popup" width="200"/>
+  <img src="Screenshots/Browsers.jpg" alt="Browser management" width="200"/>
+  <img src="Screenshots/Settings.jpg" alt="Appearance settings" width="200"/>
 </p>
 
 ## Requirements
